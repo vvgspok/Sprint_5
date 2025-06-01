@@ -27,6 +27,7 @@ def generation_pass():
     user_name = ''.join(random.choice(all_symbols) for _ in range(7))
     return f"{user_name}"
 
+
 def random_category():
     return random.choice(category)
 

@@ -35,3 +35,4 @@ class TestLocators:
     SEARCH_COLOR_REPEAT_PASS = By.XPATH, "//*[@name = 'submitPassword']/parent::div"
     SEARCH_BLOCK_MY_AD = By.XPATH, "//*[text() = 'Мои объявления']"
     SEARCH_AD_NAME_IN_PROFILE = By.XPATH, "//*[@class='about']/child::h2"
+    DOC = By.XPATH, "//*[text() = 'Документация']"
